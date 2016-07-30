@@ -1,6 +1,6 @@
 # Config
 
-**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
+**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, GitHub, Node, and more so I can more quickly get back to coding.
 
 ## Contents
 
@@ -19,6 +19,8 @@
 
 ### 2. Prep Terminal.app
 
+- Download and Install [zsh + oh-my zsh](https://github.com/robbyrussell/oh-my-zsh)
+- Install [pure](https://github.com/sindresorhus/pure),Pretty, minimal and fast ZSH prompt
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 
 ### 3. Secure Git(Hub) access
@@ -26,18 +28,28 @@
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. GitHub dev setup
+### 4. Setup HyperTerm
 
-- Download the Strap setup script for GitHub's foundational development setup.
-- Clone the `github/github` repository and run `script/osx-setup`.
+- Download and install [HyperTerm](https://hyperterm.org)
+- Install [Snazzy HyperTerm theme](https://github.com/sindresorhus/hyperterm-snazzy)
+
+#### look like this
+
+<img src="screenshot.png" width="864">
 
 ### 5. Setup Atom
 
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
+- Install [native-ui](https://atom.io/themes/native-ui) theme
 - Install favorite packages
-  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
-  - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
+  - [atom-beautify](https://atom.io/packages/atom-beautify)
+  - [emmet](https://atom.io/packages/emmet)
+  - [file-icons](https://atom.io/packages/file-icons)
+  - [minimap](https://atom.io/packages/minimap)
+  - [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
+  - [docblockr](https://atom.io/packages/docblockr)
+  - [trailing-spaces](https://atom.io/packages/trailing-spaces)
+  - [selector-to-tag](https://atom.io/packages/selector-to-tag)
 
 ## Use it yourself
 
