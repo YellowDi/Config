@@ -30,8 +30,9 @@
 
 ### 4. Setup HyperTerm
 
-- Download and install [HyperTerm](https://hyperterm.org)
-- Install [Snazzy HyperTerm theme](https://github.com/sindresorhus/hyperterm-snazzy)
+- Download and install [hyper
+](https://github.com/zeit/hyper)
+- Install [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
 
 #### look like this
 
